@@ -1,0 +1,61 @@
+.container {
+  background-color: #15263f;
+  width: 350px;
+  padding: 24px 24px 32px;
+  border-radius: 15px;
+}
+.equilibrium_img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.tittle {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.text {
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.44;
+  margin-bottom: 24px;
+}
+.info_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2e405a;
+  padding-bottom: 24px;
+}
+.info_container div {
+  display: flex;
+  align-items: center;
+  gap: 6.5px;
+}
+.eth {
+  color: #00fff8;
+}
+.clock {
+  color: #8bacd9;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  font-size: 16px;
+}
+.avatar img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.avatar p {
+  color: #8bacd9;
+}
+.avatar p span {
+  color: white;
+}
